@@ -92,3 +92,41 @@ How did you approach designing software? What techniques or strategies would you
 
 --I used a layered architecture approach, starting with core game logic and building outward to platform-specific interfaces. I also applied use-case modeling and user stories to guide feature prioritization. In the future, I’d incorporate more automated testing frameworks and CI/CD pipelines early in the design phase to support faster iteration and deployment.
 
+
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+CS-255 System Analysis and Design 8/21/2025
+
+Briefly summarize the DriverPass project. Who was the client? What type of system did they want you to design?
+
+--DriverPass is a client focused on helping users pass their driver’s license exams through a combination of online learning modules, scheduling tools, and practice tests. They want a comprehensive web-based system that could manage user accounts, track progress, and integrate with DMV scheduling systems to streamline the testing process.
+
+
+
+What did you do particularly well?
+
+--I created a clear separation between user-facing features and administrative tools, which made the system easier to maintain and scale. I also documented the data flow and user interactions thoroughly, which helped align the development team and stakeholders around a shared vision.
+
+
+
+If you could choose one part of your work on these documents to revise, what would you pick? How would you improve it?
+
+--I’d revise the integration plan with external DMV systems. Initially, it lacked detail on authentication protocols and data validation. I’d improve it by specifying API endpoints, expected response formats, and fallback procedures in case of outages.
+
+
+
+How did you interpret the user’s needs and implement them into your system design? Why is it so important to consider the user’s needs when designing?
+
+--I focused on accessibility, simplicity, and progress tracking which are the key concerns for users preparing for the exam. Considering user needs ensures the system is not just functional but actually supports the user’s goals, which adds value, drives engagement, and project success.
+
+
+
+How do you approach designing software? What techniques or strategies would you use in the future to analyze and design a system?
+
+--I start with user stories and use case diagrams to understand the core workflows. Then I build a modular architecture that separates features and allows for future expansion. In future projects, I’d incorporate more usability testing early on and use prototyping tools to validate any design assumption before full development.
+
+
+
+
+
