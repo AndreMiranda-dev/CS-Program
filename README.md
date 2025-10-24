@@ -18,7 +18,7 @@ What does it mean to be a good team member in software development?
 
 
 
-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 CS-210 Programing Languages 6/29/2025
 
@@ -53,7 +53,7 @@ How did you make this program maintainable, readable, and adaptable?
 
 
 
-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 CS-230 Operating Platforms 8/21/2025
 
@@ -94,7 +94,7 @@ How did you approach designing software? What techniques or strategies would you
 
 
 
-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 CS-255 System Analysis and Design 8/21/2025
 
@@ -125,6 +125,57 @@ How did you interpret the user’s needs and implement them into your system des
 How do you approach designing software? What techniques or strategies would you use in the future to analyze and design a system?
 
 --I start with user stories and use case diagrams to understand the core workflows. Then I build a modular architecture that separates features and allows for future expansion. In future projects, I’d incorporate more usability testing early on and use prototyping tools to validate any design assumption before full development.
+
+
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+CS-305 Software Security 10/23/2025
+
+
+Briefly summarize your client, Artemis Financial, and its software requirements. Who was the client? What issue did the company want you to address?
+
+--The client, Artemis Financial, is a U.S.-based financial consulting and investment firm that handles highly sensitive client data, including PII, biometric markers, account credentials, and proprietary financial strategies. Their software requirements centered on secure communication, regulatory compliance (GLBA, SOX, PCI DSS), and resilience against cyber threats. My task was to assess their software application for vulnerabilities and recommend mitigation strategies to strengthen security posture.
+
+
+
+
+What did you do well when you found your client’s software security vulnerabilities? Why is it important to code securely? What value does software security add to a company’s overall well-being?
+
+--I conducted a thorough manual review and static testing of the codebase, identifying critical vulnerabilities across input validation, API exposure, cryptographic practices, client-server communication, and error handling. I provided targeted recommendations for each issue, such as enforcing HTTPS, validating user input, and upgrading vulnerable dependencies. This precision ensured that each risk was addressed with a practical, actionable fix. Secure coding is essential to prevent data breaches, financial fraud, and reputational damage. For Artemis, software security directly impacts client trust, regulatory compliance, and operational continuity. A secure application reduces attack points, ensures data integrity, and supports long-term scalability.
+
+
+
+Which part of the vulnerability assessment was challenging or helpful to you?
+
+--The most challenging part was identifying hidden risks in API exposure and cryptographic misconfigurations, especially hardcoded credentials and unsecured endpoints. The most helpful aspect was the structured vulnerability assessment flow diagram because it guided my review and ensured I didn’t overlook key areas like encapsulation and code quality.
+
+
+
+How did you increase layers of security? In the future, what would you use to assess vulnerabilities and decide which mitigation techniques to use?
+
+--I implemented multiple layers of defense by validating all user inputs to prevent injection and logic errors. I enforced HTTPS and SSL/TLS for secure data transmission and applied role-based access control to sensitive methods. I also refactored code to encapsulate sensitive fields and remove redundant entry points and then upgraded third-party libraries to patch known CVEs. In future projects, I would use automated tools like OWASP Dependency-Check, SonarQube, and Snyk for static analysis, combined with manual code reviews and threat modeling. I’d also apply CVE tracking and use secure development lifecycle practices to guide mitigation decisions.
+
+
+
+
+How did you make certain the code and software application were functional and secure? After refactoring the code, how did you check to see whether you introduced new vulnerabilities?
+
+--After refactoring, I reran static tests and manually verified that all endpoints behaved as expected. I checked for regressions, validated input and output flows, and confirmed that no new vulnerabilities were introduced. I also ensured that error handling was consistent and secure.
+
+
+
+What resources, tools, or coding practices did you use that might be helpful in future assignments or tasks?
+
+--In future projects, I plan to use the OWASP Top 10 and CVE databases to stay informed about common and emerging vulnerabilities, adhering to secure coding conventions such as proper naming, access control, and input validation, and maintaining disciplined dependency management and upgrade workflows. I will also continue using secrets management tools to handle credentials securely and implement structured error logging and exception handling to ensure both security and maintainability.
+
+
+
+Employers sometimes ask for examples of work that you have successfully completed to show your skills, knowledge, and experience. What might you show future employers from this assignment?
+
+--To demonstrate my skills and experience to future employers, I would present my vulnerability assessment report as evidence of my ability to identify and analyze software security risks. I would also share before and after code samples to highlight my secure refactoring capabilities, include the dependency-check output to showcase my proficiency with static analysis tools, and provide my mitigation plan to illustrate my strategic thinking and understanding of regulatory compliance in secure software development.
+
+
 
 
 
