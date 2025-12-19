@@ -179,5 +179,41 @@ Employers sometimes ask for examples of work that you have successfully complete
 
 
 
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+CS-320 Software Test, Automation QA 12/18/2025
+
+
+How can I ensure that my code, program, or software is functional and secure?
+
+--I ensure functionality through rigorous unit testing, integration testing, and continuous validation against requirements. To maintain security, I follow best practices such as input validation, secure coding standards, and regular code reviews. Automated tools help detect vulnerabilities early, while version control and rollback mechanisms safeguard against deployment risks. Together, these practices create reliable, maintainable, and secure software.
+
+
+
+How do I interpret user needs and incorporate them into a program?
+
+--I begin by gathering clear requirements through communication, documentation, and user stories. I translate these needs into functional specifications and prioritize features based on impact and feasibility. Iterative development and feedback loops allow me to refine the program as user expectations evolve. This ensures the final product aligns with real-world use cases and delivers meaningful value.
+
+
+
+How do I approach designing software?
+
+--I approach design with a structured methodology: defining requirements, modeling system architecture, and planning modular components. I emphasize scalability, maintainability, and clarity by using design patterns and adhering to coding standards. Prototyping and diagramming help visualize workflows before implementation. This disciplined approach ensures the software is robust, adaptable, and easy to extend in the future.
+
+
+
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+
+
+
+
+
+
+
+
+
 
 
