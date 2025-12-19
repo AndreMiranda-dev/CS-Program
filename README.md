@@ -206,8 +206,43 @@ How do I approach designing software?
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 
+CS-300 DSA: Analysis and Design 12/18/2025
 
 
+What was the problem you were solving in the projects for this course?
+
+--The core problem was designing a system to store, validate, and retrieve course information efficiently. The challenge wasn’t just reading data from a file, it was ensuring that prerequisites were valid, searches were fast, and the course list could be presented in a sorted, user-friendly way. In short, the problem was about choosing the right data structure to balance correctness, performance, and usability.
+
+
+
+How did you approach the problem? Consider why data structures are important to understand.
+
+--I approached the problem by implementing three different data structures/vector, hash table, and binary search tree and analyzing their trade-offs. Data structures are fundamental because they dictate how quickly and efficiently information can be stored, searched, and organized. By comparing runtime complexities and practical usability, I was able to see how each structure shaped the program’s behavior and why the BST ultimately offered the best balance of ordered output and efficient searching.
+
+
+
+How did you overcome any roadblocks you encountered while going through the activities or project?
+
+--One major roadblock was handling invalid or missing prerequisites. To overcome this, I added validation checks during the load process, ensuring that every prerequisite referenced an existing course. Another challenge was managing sorting in the hash table implementation, which required extracting and ordering keys separately. By breaking these issues into smaller steps and testing incrementally, I was able to validate correctness before optimizing performance.
+
+
+
+How has your work on this project expanded your approach to designing software and developing programs?
+
+--This project reinforced the importance of analyzing requirements before committing to an implementation. It showed me that software design isn’t just about “making it work” it’s about choosing structures and algorithms that align with the problem’s constraints. I now think more critically about efficiency, scalability, and how design decisions affect both the user experience and long-term maintainability
+
+
+
+How has your work on this project evolved the way you write programs that are maintainable, readable, and adaptable?
+
+--I’ve become more deliberate about structuring code with clarity and modularity. Using pseudocode and separating concerns (loading, validation, searching, printing) made the program easier to read and extend. I also learned to anticipate future needs like adding new search features or handling larger datasets by writing functions that are adaptable rather than rigid. This project has pushed me toward writing code that is not only correct but also clean, maintainable, and ready to evolve with new requirements.
+
+
+
+
+
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 
 
