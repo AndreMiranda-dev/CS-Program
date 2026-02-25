@@ -245,6 +245,48 @@ How has your work on this project evolved the way you write programs that are ma
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 
+CS-330 Comp Graphic and Visualization 02/25/2026
+
+
+How do I approach designing software?
+--I approach software design by starting with a clear conceptual model, breaking the system into modular components, and planning the structure before writing code. For this project, that meant identifying each object in the 3D scene, its geometry, transformations, and how it interacted with lighting and the camera.
+
+What new design skills has your work on the project helped you to craft?
+--I strengthened my ability to decompose complex visual objects into basic primitives and improved at designing reusable components such as shape classes, transformation utilities, and shader interactions.
+
+What design process did you follow for your project work?
+--I used an iterative, layered design process by first planning the overall scene, then breaking objects into shapes, then mapping transformations, and fianlly refining the design as I discovered better approaches during the process.
+
+How could tactics from your design approach be applied in future work?
+--Modular decomposition, incremental refinement, and documenting decisions can be applied to any future software project, helping maintain clarity and scalability.
+
+How do I approach developing programs?
+--I treat development as an iterative cycle of experimentation, testing, and refinement. Instead of building everything at once, I develop in small, verifiable steps then I test my work and refine as I go along.
+
+What new development strategies did you use while working on your 3D scene?
+--I adopted stronger separation of concerns, keeping rendering logic, transformations, and object definitions organized. I also relied heavily on incremental testing to validate each object before integrating it into the full scene.
+
+How did iteration factor into your development?
+--Iteration was the most important step. With each milestone built on the last, I continually revisited earlier decisions with new understanding, improving both structure and clarity.
+
+How has your approach to developing code evolved throughout the milestones, which led you to the project’s completion?
+--My approach shifted from simply making things work to making them clean, reusable, and scalable. By the final milestone, my codebase was more organized, my debugging was more efficient, and my understanding of transformations and rendering pipelines got stronger.
+
+How can computer science help me in reaching my goals?
+--Computer science gives me the tools to think systematically, solve complex problems, and build meaningful software skills that support both my academic and professional goals in SCRUM and as a Product Owner.
+
+How do computational graphics and visualizations give you new knowledge and skills that can be applied in your future educational pathway?
+--They deepen my understanding of geometry, transformations, shaders, and rendering pipelines, which are essential for graphics, simulation, and game development.
+
+How do computational graphics and visualizations give you new knowledge and skills that can be applied in your future professional pathway?
+--These skills translate directly into fields like game development, UI/UX visualization, simulation, VR, and data visualization. They also strengthen my ability to design thoughtfully, iterate effectively, and communicate technical decisions which are all valuable in any professional role.
+
+
+
+
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
 
 
 
