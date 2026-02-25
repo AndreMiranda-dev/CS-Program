@@ -291,6 +291,33 @@ How do computational graphics and visualizations give you new knowledge and skil
 
 
 
+CS-360 Mobile Architect & Programming
+
+
+Briefly summarize the requirements and goals of the app you developed. What user needs was this app designed to address?
+--The app was designed to help users manage an inventory of items efficiently and intuitively. Its core goal was to allow users to add items, update quantities, view their full inventory, and receive feedback when quantities reached zero. The app addressed user needs for organization, quick data entry, clear visibility of stored items, and simple navigation.
+
+What screens and features were necessary to support user needs and produce a user-centered UI for the app? How did your UI designs keep users in mind? Why were your designs successful?
+--The app required a login screen, a home dashboard, an inventory list screen, an item detail screen, and an add/edit item screen. Each screen was designed with clarity, minimalism, and accessibility in mind. Buttons were clearly labeled, navigation was consistent, and forms were simple to complete. The UI succeeded because it reduced cognitive load, followed mobile design best practices, and ensured that users could complete tasks with minimal steps.
+
+How did you approach the process of coding your app? What techniques or strategies did you use? How could those techniques or strategies be applied in the future?
+--I approached coding by breaking the app into small, manageable components and implementing one feature at a time. I used modularization, consistent naming conventions, and incremental testing to keep the codebase organized. These strategies can be applied to any future project because they improve maintainability, reduce bugs, and make it easier to scale or modify features.
+
+How did you test to ensure your code was functional? Why is this process important, and what did it reveal?
+--I tested the app by running it frequently on the emulator, checking each screen transition, validating form inputs, and verifying database operations. This process is important because it catches issues early and ensures the app behaves as expected. Testing revealed small logic errors, UI alignment issues, and data handling mistakes that were easy to fix once identified.
+
+Consider the full app design and development process from initial planning to finalization. Where did you have to innovate to overcome a challenge?
+--One challenge required creativity when connecting the UI to the database logic. Ensuring that updates, deletions, and inserts were reflected instantly in the UI required careful handling of adapters and lifecycle events. I had to rethink how data flowed through the app and adjust my architecture to keep everything synchronized.
+
+In what specific component of your mobile app were you particularly successful in demonstrating your knowledge, skills, and experience?
+--The inventory list and item detail components were especially strong. They demonstrated my ability to design a clean UI, implement database backed functionality, and create a smooth user experience. These components showed my understanding of a user centered design language, mobile architecture, and practical Android development.
+
+
+
+
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
 
 
 
