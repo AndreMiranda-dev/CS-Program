@@ -321,3 +321,20 @@ In what specific component of your mobile app were you particularly successful i
 
 
 
+
+
+CS-340 Client/Server Development
+
+How do you write programs that are maintainable, readable, and adaptable? Especially consider your work on the CRUD Python module from Project One, which you used to connect the dashboard widgets to the database in Project Two. What were the advantages of working in this way? How else could you use this CRUD Python module in the future?
+--Writing programs that remain maintainable, readable, and adaptable over time requires designing each component with clarity and separation of responsibility. When developing the CRUD Python module, the goal was to create a single, consistent interface for all database interactions so that the dashboard could rely on it without needing to understand the underlying database structure. This approach made the overall system easier to extend, because any future changes to the database or data model would only require updates to the CRUD module rather than rewriting the dashboard logic. Working in this way also reduced duplication, improved reliability, and made the code easier to test and debug. The same CRUD module could be reused in future projects as a shared data access layer, a foundation for an API service, or a template for other dashboards that need structured and predictable database communication.
+
+How do you approach a problem as a computer scientist? Consider how you approached the database or dashboard requirements that Grazioso Salvare requested. How did your approach to this project differ from previous assignments in other courses? What techniques or strategies would you use in the future to create databases to meet other client requests?
+--I approach problems by breaking down the requirements into smaller, logical components and understanding the underlying purpose behind each feature. When analyzing the database and dashboard needs for Grazioso Salvare, the first step was to understand how the organization intended to use the data and what decisions the dashboard needed to support. This project differed from other earlier coursework because it required thinking about the system as a whole rather than completing isolated tasks. I had to make sure that the database structure, CRUD operations, and dashboard interface all worked together seamlessly. Moving forward, techniques such as careful schema design, modular code organization, early prototyping, and iterative refinement will continue to be essential when creating databases for future clients, ensuring that the final product is both functional and adaptable to changing requirements.
+
+What do computer scientists do, and why does it matter? How would your work on this type of project help a company, like Grazioso Salvare, to do their work better?
+--Computer scientists create systems that transform raw information into meaningful, actionable insights, and this work matters because organizations rely on accurate data to operate effectively. In a project like the one for Grazioso Salvare, the ability to organize, filter, and visualize animal records directly supports the organization’s mission by helping staff make faster and more informed decisions. A well‑designed dashboard reduces manual effort, minimizes errors, and allows the team to focus more on their core work rather than sorting through spreadsheets or inconsistent data sources. By building tools that streamline operations and improve access to information, computer scientists enable companies to work more efficiently, respond more quickly to real world needs, and ultimately achieve better outcomes.
+
+
+
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
