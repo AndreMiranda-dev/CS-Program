@@ -338,3 +338,27 @@ What do computer scientists do, and why does it matter? How would your work on t
 
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+
+
+CS-370 Current/Emerging Trends
+
+
+
+Briefly explain the work that you did on this project: What code were you given? What code did you create yourself?
+--I was given the environment, experience replay classes, helper functions, and the model architecture, and I created the full deep Q‑learning loop including action selection, replay memory usage, model training, and target network updates.
+
+What do computer scientists do and why does it matter?
+--Computer scientists design systems that solve real world problems through computation, which matters because their solutions drive innovation, efficiency, and automation across every industry.
+
+How do I approach a problem as a computer scientist?
+--I approach problems by breaking them into smaller components, analyzing constraints, designing algorithms, and iterating through testing and refinement.
+
+What are my ethical responsibilities to the end user and the organization?
+--My ethical responsibilities include ensuring accuracy, safety, transparency, and fairness in the systems I build while protecting user data and aligning with organizational standards.
+
+
+
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
