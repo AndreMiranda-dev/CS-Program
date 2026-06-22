@@ -362,3 +362,57 @@ What are my ethical responsibilities to the end user and the organization?
 
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+
+
+CS-350 Emerging Sys Arch and Tech
+
+
+
+Milestone 3 Summary:
+--Milestone Three focused on implementing button driven input and integrating it with a Morse‑code state machine that controlled LED blinking, timing delays, and message selection. The project required handling single‑press and double‑press logic, updating the active message, and ensuring that the LED transmission loop ran concurrently without blocking the main program. I also created a detailed state machine diagram that mapped out every transition between dot, dash, pauses, and message‑selection states. This milestone demonstrated how to combine real‑time input handling with time sensitive output in an embedded environment.
+
+What did you do particularly well?
+--I did particularly well in designing a clean and predictable state machine that controlled every aspect of the Morse‑code output. Each state returned to a stable off state, which made the system easy to reason about and prevented conflicting LED behavior. I also handled button input cleanly by separating single‑press and double‑press logic, allowing the user to switch between messages without interrupting the LED transmission thread. The clarity of the diagram and the responsiveness of the system were strong points of my milestone.
+
+Where could you improve?
+--One area for improvement would be modularizing the code further so that the LED logic, button logic, and message‑handling logic are more isolated from each other. While the system works well, separating these responsibilities into dedicated modules or classes would make the program easier to maintain and extend. I could also improve error handling, especially around debouncing edge cases or handling unexpected timing overlaps between button presses and LED output. Strengthening these areas would make the system more robust and scalable.
+
+What tools and/or resources are you adding to your support network?
+--Milestone three added several useful tools and resources to my workflow, including Python’s threading library for concurrent execution, GPIOZero for clean button and LED handling, and timing utilities for managing precise delays. I also relied heavily on state machine design principles and diagramming tools to visualize transitions clearly. These resources will continue to support future embedded projects where concurrency, timing, and hardware interaction are essential.
+
+What skills from this project will be particularly transferable to other projects and/or course work?
+--The most transferable skills from this milestone include designing finite state machines, managing concurrency through threading, and handling real‑time hardware input without blocking system behavior. These skills apply broadly to embedded systems, IoT development, robotics, and any software that requires event‑driven logic. Additionally, the ability to translate hardware behavior into clear diagrams and structured logic will be valuable in both academic and professional settings.
+
+How did you make this project maintainable, readable, and adaptable?
+--I made the project maintainable by structuring the state machine so that every action returned to a predictable off state, which simplified transitions and reduced the chance of inconsistent behavior. The code was written with clear naming conventions, comments explaining timing values, and logical separation between button handling and LED output. The state machine diagram also serves as documentation that makes the system easy to understand and modify. These choices ensure that the project can be extended with new messages, additional input methods, or more complex timing rules without major restructuring.
+
+
+
+
+
+Final Project Summary:
+--This project involved building a functional thermostat prototype that could read temperature and humidity, respond to user input, display system information, and simulate cloud communication. The goal was to create a low‑level embedded system that met SysTec’s requirements before moving into full IoT development. By integrating the AHT20 sensor, LEDs, buttons, an LCD, and UART output into a finite state machine, the system demonstrated how a modern thermostat could manage environmental data and user interactions in real time. The project solved the problem of producing a dependable, hardware driven prototype that could later be expanded with Wi-Fi and cloud services.
+
+What did you do particularly well?
+--I executed the finite state machine design especially well, ensuring that each system mode, OFF, HEAT, and COOL, behaved predictably and followed clear transition rules. The timing logic for the LCD, the LED behavior tied to temperature thresholds, and the interrupt‑driven button handling all worked smoothly together without blocking or lag. I also communicated the system’s behavior clearly through both the written report and the state machine diagram, which made the architecture easy to understand and evaluate. This combination of clean logic, responsive input handling, and strong documentation is one of the strongest aspects of the project.
+
+Where could you improve?
+--If I were to improve the project, I would focus on making the codebase more modular and scalable. Several parts of the system, such as LED control, display updates, and UART formatting, could be separated into dedicated modules or classes to reduce repetition and improve clarity. I would also add more robust error handling for sensor failures or unexpected input conditions, which would make the system more resilient in real‑world scenarios. These improvements would make the project easier to maintain and better prepared for future features like Wi-Fi connectivity and cloud integration.
+
+What tools and/or resources are you adding to your support network?
+--Throughout this project, I added several valuable tools and resources to my development workflow, including the GPIOZero and smbus libraries for hardware interfacing, Raspberry Pi documentation for UART, I2C, and GPIO, and datasheets for the AHT20 sensor and LCD. I also expanded my familiarity with Microchip and NXP architecture documentation while evaluating production‑ready hardware options. These resources form a solid foundation for future embedded and IoT projects, giving me reliable references for both hardware capabilities and software integration techniques.
+
+What skills from this project will be particularly transferable to other projects and/or course work?
+--The most transferable skills from this project include designing and implementing finite state machines, writing interface software for hardware components, and managing interrupt‑driven input. These skills apply broadly across embedded systems, IoT development, and even higher‑level software engineering where structured logic and event‑driven behavior are essential. Additionally, evaluating hardware architecture based on business requirements strengthened my ability to make informed technical recommendations, a skill that is valuable in both academic and professional settings.
+
+How did you make this project maintainable, readable, and adaptable?
+--I made the project maintainable and readable by organizing the system around a clear finite state machine and writing code with descriptive variable names, consistent structure, and meaningful comments. The logic for sensor reading, display updates, LED behavior, and UART output was kept clean and predictable, making it easy for someone else to follow. The UART format and state machine diagram also serve as documentation that supports future expansion, ensuring the system can be adapted for cloud connectivity or additional features without major restructuring.
+
+
+
+
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
