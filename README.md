@@ -249,36 +249,47 @@ CS-330 Comp Graphic and Visualization 02/25/2026
 
 
 How do I approach designing software?
+
 --I approach software design by starting with a clear conceptual model, breaking the system into modular components, and planning the structure before writing code. For this project, that meant identifying each object in the 3D scene, its geometry, transformations, and how it interacted with lighting and the camera.
 
 What new design skills has your work on the project helped you to craft?
+
 --I strengthened my ability to decompose complex visual objects into basic primitives and improved at designing reusable components such as shape classes, transformation utilities, and shader interactions.
 
 What design process did you follow for your project work?
+
 --I used an iterative, layered design process by first planning the overall scene, then breaking objects into shapes, then mapping transformations, and fianlly refining the design as I discovered better approaches during the process.
 
 How could tactics from your design approach be applied in future work?
+
 --Modular decomposition, incremental refinement, and documenting decisions can be applied to any future software project, helping maintain clarity and scalability.
 
 How do I approach developing programs?
+
 --I treat development as an iterative cycle of experimentation, testing, and refinement. Instead of building everything at once, I develop in small, verifiable steps then I test my work and refine as I go along.
 
 What new development strategies did you use while working on your 3D scene?
+
 --I adopted stronger separation of concerns, keeping rendering logic, transformations, and object definitions organized. I also relied heavily on incremental testing to validate each object before integrating it into the full scene.
 
 How did iteration factor into your development?
+
 --Iteration was the most important step. With each milestone built on the last, I continually revisited earlier decisions with new understanding, improving both structure and clarity.
 
 How has your approach to developing code evolved throughout the milestones, which led you to the project’s completion?
+
 --My approach shifted from simply making things work to making them clean, reusable, and scalable. By the final milestone, my codebase was more organized, my debugging was more efficient, and my understanding of transformations and rendering pipelines got stronger.
 
 How can computer science help me in reaching my goals?
+
 --Computer science gives me the tools to think systematically, solve complex problems, and build meaningful software skills that support both my academic and professional goals in SCRUM and as a Product Owner.
 
 How do computational graphics and visualizations give you new knowledge and skills that can be applied in your future educational pathway?
+
 --They deepen my understanding of geometry, transformations, shaders, and rendering pipelines, which are essential for graphics, simulation, and game development.
 
 How do computational graphics and visualizations give you new knowledge and skills that can be applied in your future professional pathway?
+
 --These skills translate directly into fields like game development, UI/UX visualization, simulation, VR, and data visualization. They also strengthen my ability to design thoughtfully, iterate effectively, and communicate technical decisions which are all valuable in any professional role.
 
 
@@ -295,21 +306,27 @@ CS-360 Mobile Architect & Programming
 
 
 Briefly summarize the requirements and goals of the app you developed. What user needs was this app designed to address?
+
 --The app was designed to help users manage an inventory of items efficiently and intuitively. Its core goal was to allow users to add items, update quantities, view their full inventory, and receive feedback when quantities reached zero. The app addressed user needs for organization, quick data entry, clear visibility of stored items, and simple navigation.
 
 What screens and features were necessary to support user needs and produce a user-centered UI for the app? How did your UI designs keep users in mind? Why were your designs successful?
+
 --The app required a login screen, a home dashboard, an inventory list screen, an item detail screen, and an add/edit item screen. Each screen was designed with clarity, minimalism, and accessibility in mind. Buttons were clearly labeled, navigation was consistent, and forms were simple to complete. The UI succeeded because it reduced cognitive load, followed mobile design best practices, and ensured that users could complete tasks with minimal steps.
 
 How did you approach the process of coding your app? What techniques or strategies did you use? How could those techniques or strategies be applied in the future?
+
 --I approached coding by breaking the app into small, manageable components and implementing one feature at a time. I used modularization, consistent naming conventions, and incremental testing to keep the codebase organized. These strategies can be applied to any future project because they improve maintainability, reduce bugs, and make it easier to scale or modify features.
 
 How did you test to ensure your code was functional? Why is this process important, and what did it reveal?
+
 --I tested the app by running it frequently on the emulator, checking each screen transition, validating form inputs, and verifying database operations. This process is important because it catches issues early and ensures the app behaves as expected. Testing revealed small logic errors, UI alignment issues, and data handling mistakes that were easy to fix once identified.
 
 Consider the full app design and development process from initial planning to finalization. Where did you have to innovate to overcome a challenge?
+
 --One challenge required creativity when connecting the UI to the database logic. Ensuring that updates, deletions, and inserts were reflected instantly in the UI required careful handling of adapters and lifecycle events. I had to rethink how data flowed through the app and adjust my architecture to keep everything synchronized.
 
 In what specific component of your mobile app were you particularly successful in demonstrating your knowledge, skills, and experience?
+
 --The inventory list and item detail components were especially strong. They demonstrated my ability to design a clean UI, implement database backed functionality, and create a smooth user experience. These components showed my understanding of a user centered design language, mobile architecture, and practical Android development.
 
 
@@ -326,12 +343,15 @@ In what specific component of your mobile app were you particularly successful i
 CS-340 Client/Server Development
 
 How do you write programs that are maintainable, readable, and adaptable? Especially consider your work on the CRUD Python module from Project One, which you used to connect the dashboard widgets to the database in Project Two. What were the advantages of working in this way? How else could you use this CRUD Python module in the future?
+
 --Writing programs that remain maintainable, readable, and adaptable over time requires designing each component with clarity and separation of responsibility. When developing the CRUD Python module, the goal was to create a single, consistent interface for all database interactions so that the dashboard could rely on it without needing to understand the underlying database structure. This approach made the overall system easier to extend, because any future changes to the database or data model would only require updates to the CRUD module rather than rewriting the dashboard logic. Working in this way also reduced duplication, improved reliability, and made the code easier to test and debug. The same CRUD module could be reused in future projects as a shared data access layer, a foundation for an API service, or a template for other dashboards that need structured and predictable database communication.
 
 How do you approach a problem as a computer scientist? Consider how you approached the database or dashboard requirements that Grazioso Salvare requested. How did your approach to this project differ from previous assignments in other courses? What techniques or strategies would you use in the future to create databases to meet other client requests?
+
 --I approach problems by breaking down the requirements into smaller, logical components and understanding the underlying purpose behind each feature. When analyzing the database and dashboard needs for Grazioso Salvare, the first step was to understand how the organization intended to use the data and what decisions the dashboard needed to support. This project differed from other earlier coursework because it required thinking about the system as a whole rather than completing isolated tasks. I had to make sure that the database structure, CRUD operations, and dashboard interface all worked together seamlessly. Moving forward, techniques such as careful schema design, modular code organization, early prototyping, and iterative refinement will continue to be essential when creating databases for future clients, ensuring that the final product is both functional and adaptable to changing requirements.
 
 What do computer scientists do, and why does it matter? How would your work on this type of project help a company, like Grazioso Salvare, to do their work better?
+
 --Computer scientists create systems that transform raw information into meaningful, actionable insights, and this work matters because organizations rely on accurate data to operate effectively. In a project like the one for Grazioso Salvare, the ability to organize, filter, and visualize animal records directly supports the organization’s mission by helping staff make faster and more informed decisions. A well‑designed dashboard reduces manual effort, minimizes errors, and allows the team to focus more on their core work rather than sorting through spreadsheets or inconsistent data sources. By building tools that streamline operations and improve access to information, computer scientists enable companies to work more efficiently, respond more quickly to real world needs, and ultimately achieve better outcomes.
 
 
@@ -347,15 +367,19 @@ CS-370 Current/Emerging Trends
 
 
 Briefly explain the work that you did on this project: What code were you given? What code did you create yourself?
+
 --I was given the environment, experience replay classes, helper functions, and the model architecture, and I created the full deep Q‑learning loop including action selection, replay memory usage, model training, and target network updates.
 
 What do computer scientists do and why does it matter?
+
 --Computer scientists design systems that solve real world problems through computation, which matters because their solutions drive innovation, efficiency, and automation across every industry.
 
 How do I approach a problem as a computer scientist?
+
 --I approach problems by breaking them into smaller components, analyzing constraints, designing algorithms, and iterating through testing and refinement.
 
 What are my ethical responsibilities to the end user and the organization?
+
 --My ethical responsibilities include ensuring accuracy, safety, transparency, and fairness in the systems I build while protecting user data and aligning with organizational standards.
 
 
@@ -371,21 +395,27 @@ CS-350 Emerging Sys Arch and Tech
 
 
 Milestone 3 Summary:
+
 --Milestone Three focused on implementing button driven input and integrating it with a Morse‑code state machine that controlled LED blinking, timing delays, and message selection. The project required handling single‑press and double‑press logic, updating the active message, and ensuring that the LED transmission loop ran concurrently without blocking the main program. I also created a detailed state machine diagram that mapped out every transition between dot, dash, pauses, and message‑selection states. This milestone demonstrated how to combine real‑time input handling with time sensitive output in an embedded environment.
 
 What did you do particularly well?
+
 --I did particularly well in designing a clean and predictable state machine that controlled every aspect of the Morse‑code output. Each state returned to a stable off state, which made the system easy to reason about and prevented conflicting LED behavior. I also handled button input cleanly by separating single‑press and double‑press logic, allowing the user to switch between messages without interrupting the LED transmission thread. The clarity of the diagram and the responsiveness of the system were strong points of my milestone.
 
 Where could you improve?
+
 --One area for improvement would be modularizing the code further so that the LED logic, button logic, and message‑handling logic are more isolated from each other. While the system works well, separating these responsibilities into dedicated modules or classes would make the program easier to maintain and extend. I could also improve error handling, especially around debouncing edge cases or handling unexpected timing overlaps between button presses and LED output. Strengthening these areas would make the system more robust and scalable.
 
 What tools and/or resources are you adding to your support network?
+
 --Milestone three added several useful tools and resources to my workflow, including Python’s threading library for concurrent execution, GPIOZero for clean button and LED handling, and timing utilities for managing precise delays. I also relied heavily on state machine design principles and diagramming tools to visualize transitions clearly. These resources will continue to support future embedded projects where concurrency, timing, and hardware interaction are essential.
 
 What skills from this project will be particularly transferable to other projects and/or course work?
+
 --The most transferable skills from this milestone include designing finite state machines, managing concurrency through threading, and handling real‑time hardware input without blocking system behavior. These skills apply broadly to embedded systems, IoT development, robotics, and any software that requires event‑driven logic. Additionally, the ability to translate hardware behavior into clear diagrams and structured logic will be valuable in both academic and professional settings.
 
 How did you make this project maintainable, readable, and adaptable?
+
 --I made the project maintainable by structuring the state machine so that every action returned to a predictable off state, which simplified transitions and reduced the chance of inconsistent behavior. The code was written with clear naming conventions, comments explaining timing values, and logical separation between button handling and LED output. The state machine diagram also serves as documentation that makes the system easy to understand and modify. These choices ensure that the project can be extended with new messages, additional input methods, or more complex timing rules without major restructuring.
 
 
@@ -393,21 +423,27 @@ How did you make this project maintainable, readable, and adaptable?
 
 
 Final Project Summary:
+
 --This project involved building a functional thermostat prototype that could read temperature and humidity, respond to user input, display system information, and simulate cloud communication. The goal was to create a low‑level embedded system that met SysTec’s requirements before moving into full IoT development. By integrating the AHT20 sensor, LEDs, buttons, an LCD, and UART output into a finite state machine, the system demonstrated how a modern thermostat could manage environmental data and user interactions in real time. The project solved the problem of producing a dependable, hardware driven prototype that could later be expanded with Wi-Fi and cloud services.
 
 What did you do particularly well?
+
 --I executed the finite state machine design especially well, ensuring that each system mode, OFF, HEAT, and COOL, behaved predictably and followed clear transition rules. The timing logic for the LCD, the LED behavior tied to temperature thresholds, and the interrupt‑driven button handling all worked smoothly together without blocking or lag. I also communicated the system’s behavior clearly through both the written report and the state machine diagram, which made the architecture easy to understand and evaluate. This combination of clean logic, responsive input handling, and strong documentation is one of the strongest aspects of the project.
 
 Where could you improve?
+
 --If I were to improve the project, I would focus on making the codebase more modular and scalable. Several parts of the system, such as LED control, display updates, and UART formatting, could be separated into dedicated modules or classes to reduce repetition and improve clarity. I would also add more robust error handling for sensor failures or unexpected input conditions, which would make the system more resilient in real‑world scenarios. These improvements would make the project easier to maintain and better prepared for future features like Wi-Fi connectivity and cloud integration.
 
 What tools and/or resources are you adding to your support network?
+
 --Throughout this project, I added several valuable tools and resources to my development workflow, including the GPIOZero and smbus libraries for hardware interfacing, Raspberry Pi documentation for UART, I2C, and GPIO, and datasheets for the AHT20 sensor and LCD. I also expanded my familiarity with Microchip and NXP architecture documentation while evaluating production‑ready hardware options. These resources form a solid foundation for future embedded and IoT projects, giving me reliable references for both hardware capabilities and software integration techniques.
 
 What skills from this project will be particularly transferable to other projects and/or course work?
+
 --The most transferable skills from this project include designing and implementing finite state machines, writing interface software for hardware components, and managing interrupt‑driven input. These skills apply broadly across embedded systems, IoT development, and even higher‑level software engineering where structured logic and event‑driven behavior are essential. Additionally, evaluating hardware architecture based on business requirements strengthened my ability to make informed technical recommendations, a skill that is valuable in both academic and professional settings.
 
 How did you make this project maintainable, readable, and adaptable?
+
 --I made the project maintainable and readable by organizing the system around a clear finite state machine and writing code with descriptive variable names, consistent structure, and meaningful comments. The logic for sensor reading, display updates, LED behavior, and UART output was kept clean and predictable, making it easy for someone else to follow. The UART format and state machine diagram also serve as documentation that supports future expansion, ensuring the system can be adapted for cloud connectivity or additional features without major restructuring.
 
 
