@@ -1,0 +1,6 @@
+﻿  pch.cpp
+  test.cpp
+C:\Users\andre\OneDrive\Desktop\General\SNHU\CS 405\Milestone\Milestone\Milestone\test.cpp(173,5): warning C4834: discarding return value of function with [[nodiscard]] attribute
+  (compiling source file '/test.cpp')
+  
+  Milestone.vcxproj -> C:\Users\andre\OneDrive\Desktop\General\SNHU\CS 405\Milestone\Milestone\x64\Debug\Milestone.exe
