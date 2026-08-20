@@ -1,0 +1,4 @@
+Static Code Analysis.a1:Debug|Win32::C:/Users/andre/OneDrive/Desktop/General/SNHU/CS 405/Static Code Analysis/QuestionableSourceCodeFile/Static Code Analysis/Static Code Analysis.cpp
+Static Code Analysis.a2:Release|Win32::C:/Users/andre/OneDrive/Desktop/General/SNHU/CS 405/Static Code Analysis/QuestionableSourceCodeFile/Static Code Analysis/Static Code Analysis.cpp
+Static Code Analysis.a3:Debug|x64::C:/Users/andre/OneDrive/Desktop/General/SNHU/CS 405/Static Code Analysis/QuestionableSourceCodeFile/Static Code Analysis/Static Code Analysis.cpp
+Static Code Analysis.a4:Release|x64::C:/Users/andre/OneDrive/Desktop/General/SNHU/CS 405/Static Code Analysis/QuestionableSourceCodeFile/Static Code Analysis/Static Code Analysis.cpp
