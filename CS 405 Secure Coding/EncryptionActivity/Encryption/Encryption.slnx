@@ -1,0 +1,8 @@
+<Solution>
+  <Configurations>
+    <Platform Name="x64" />
+    <Platform Name="x86" />
+  </Configurations>
+  <Folder Name="/Solution Items/" />
+  <Project Path="Encryption/Encryption.vcxproj" Id="6dd06a4d-28a0-4b38-9b70-ad379f303e5e" />
+</Solution>
